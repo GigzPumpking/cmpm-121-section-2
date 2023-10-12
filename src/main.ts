@@ -43,7 +43,7 @@ function jump() {
 function removeJumpBuffer() {
     frameTime += 1;
 
-    if (frameTime >= 60) {
+    if (frameTime >= 50) {
         frameTime = 0;
         removeJump();
     }

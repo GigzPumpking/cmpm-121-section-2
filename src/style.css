@@ -32,7 +32,7 @@
 
 .jump
 {
-  animation: jump .5s linear;
+  animation: jump .5s ease-in-out;
 }
 
 @keyframes jump
@@ -44,12 +44,12 @@
 
   35%
   {
-    top: 50px;
+    top: 60px;
   }
 
   65%
   {
-    top: 50px;
+    top: 60px;
   }
 
   100%
